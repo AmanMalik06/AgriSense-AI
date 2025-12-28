@@ -4,15 +4,16 @@
 }
 
 body {
-  body {
   margin: 0;
-  padding-top: 80px; /* navbar height */
+  padding-top: 70px;          /* navbar height */
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #f1f8e9, #ffffff);
   color: #333;
 }
 
-}
+
+
+
 
 /* NAVBAR */
 nav {
@@ -75,14 +76,15 @@ nav ul li a {
 
 /* SECTIONS */
 .section {
- .section {
   max-width: 1000px;
-  margin: 40px auto;   /* ⬅️ reduced */
+  margin: 20px auto;          /* ⬅️ CRITICAL FIX */
   padding: 50px;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  display: block;
 }
+
 .section h2,
 .section p,
 .section li,
@@ -90,7 +92,6 @@ nav ul li a {
   color: #1b5e20;
 }
 
-}
 
 .section-alt {
   background: linear-gradient(135deg, #e8f5e9, #ffffff);
