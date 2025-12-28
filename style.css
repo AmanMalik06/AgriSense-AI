@@ -4,10 +4,14 @@
 }
 
 body {
+  body {
   margin: 0;
+  padding-top: 80px; /* navbar height */
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #f1f8e9, #ffffff);
   color: #333;
+}
+
 }
 
 /* NAVBAR */
@@ -71,12 +75,21 @@ nav ul li a {
 
 /* SECTIONS */
 .section {
+ .section {
   max-width: 1000px;
-  margin: 120px auto;
+  margin: 40px auto;   /* ⬅️ reduced */
   padding: 50px;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+.section h2,
+.section p,
+.section li,
+.section div {
+  color: #1b5e20;
+}
+
 }
 
 .section-alt {
