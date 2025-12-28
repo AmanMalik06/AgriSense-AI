@@ -7,7 +7,6 @@
 </head>
 <body>
 
-<!-- NAVBAR -->
 <nav>
   <div class="logo">🌱 AgriSense AI</div>
   <ul>
@@ -20,22 +19,58 @@
   </ul>
 </nav>
 
-<!-- PAGE CONTENT -->
-<section class="section reveal">
+<section class="section">
   <h2>🏗️ System Architecture</h2>
 
   <p>
-    AgriSense AI follows a modular architecture where agricultural data
-    flows through machine learning models and is transformed into
-    actionable insights via analytics dashboards.
+    AgriSense AI follows a modular, scalable architecture that separates
+    data ingestion, machine learning, analytics, and visualization layers.
+    This design allows easy experimentation, deployment, and future expansion.
   </p>
 
-  <div class="flow">
-    <span>Data Sources</span> →
-    <span>AI Models (Jupyter)</span> →
-    <span>Predictions</span> →
-    <span>Power BI Dashboards</span>
-  </div>
+  <h3>📥 Data Sources</h3>
+  <p>
+    The system ingests agricultural datasets including crop yield records,
+    soil parameters, weather data, and seasonal information.
+    These datasets may originate from government portals, research datasets,
+    or manually collected farm data.
+  </p>
+
+  <h3>🧠 Machine Learning Layer</h3>
+  <p>
+    Data preprocessing and model development are carried out using
+    Jupyter Notebooks. Machine learning algorithms analyze historical
+    patterns to generate predictions related to crop yield and risk factors.
+    Model outputs are stored as structured datasets for further analysis.
+  </p>
+
+  <h3>⚙️ Data Processing & Storage</h3>
+  <p>
+    Cleaned data and prediction outputs are organized into tabular formats
+    suitable for analytics. This layer ensures consistency between raw inputs
+    and visualization-ready data.
+  </p>
+
+  <h3>📊 Analytics & Visualization</h3>
+  <p>
+    Power BI dashboards consume the processed datasets to present insights
+    through interactive charts, maps, and filters.
+    Users can explore regional trends, compare crop performance,
+    and identify patterns easily.
+  </p>
+
+  <h3>🌐 Presentation Layer</h3>
+  <p>
+    This website acts as the presentation and documentation layer,
+    describing the problem, solution, architecture, and roadmap
+    for stakeholders, evaluators, and future collaborators.
+  </p>
+
+  <h3>🔁 End-to-End Flow</h3>
+  <p>
+    Data → Preprocessing → Machine Learning Models → Predictions →
+    Power BI Dashboards → Decision Support
+  </p>
 </section>
 
 <script src="script.js"></script>
